@@ -1,6 +1,10 @@
 import seaborn as sns
 import pandas as pd
 
+url = 'https://github.com/melaniewalsh/Intro-Cultural-Analytics/raw/master/book/data/bellevue_almshouse_modified.csv'
+df_bellevue = pd.read_csv(url)
+
+
 
 # update/add code below ...
 def fibonacci(n):
